@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1sft/v1_university animals/cfunction.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "9d19da94b0f937183bba921b0de1be966be4f549103efb24349749a4a54e5a16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1sft/v1_university animals/cfunction.h"
+          },
+          "hashes": {
+            "sha-256": "410b141ee94e0cd53cee064badd96ff38d87be401004229c67533bbf93c30e7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/professional/vc/auxiliary/vs/include/easyx.h"
+          },
+          "hashes": {
+            "sha-256": "bb41113e55530a7bc296c223e3cb1c48b0d35c053b4c66ed843e4f75463cf0d8"
+          }
+        }
+      ]
+    }
+  ]
+}

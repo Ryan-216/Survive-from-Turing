@@ -1,0 +1,219 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CResource::monsterPath。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1_University Animals/CResource.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CResource::{ctor}",
+                  "decoratedName": "??0CResource@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CResource::monsterPath"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CResource::heroPath。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1_University Animals/CResource.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CResource::{ctor}",
+                  "decoratedName": "??0CResource@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CResource::heroPath"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CResource::bgmPath。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1_University Animals/CResource.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CResource::{ctor}",
+                  "decoratedName": "??0CResource@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CResource::bgmPath"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CResource::bgPath。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1_University Animals/CResource.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CResource::{ctor}",
+                  "decoratedName": "??0CResource@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CResource::bgPath"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/C++/V1_University Animals/CResource.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5608a275c38cc1dc8773130a020bc2322007e027cc712dd306298183c2522b1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1_university animals/cmanager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1d088b3e768097c8fef0d12ee779437e0ab3432db233ef8d56dda89b92dfd41e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1_university animals/cmanager.h"
+          },
+          "hashes": {
+            "sha-256": "f644e44722dfb2216c2a58cc2a47b2d3a1befc7c464a3c6b614e799d18baf44a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/professional/vc/auxiliary/vs/include/easyx.h"
+          },
+          "hashes": {
+            "sha-256": "bb41113e55530a7bc296c223e3cb1c48b0d35c053b4c66ed843e4f75463cf0d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1_university animals/cfunction.h"
+          },
+          "hashes": {
+            "sha-256": "2bfd3d596c8231dcbf4796c118cc7aea4d4196baf5c0a1dce68072ef860894f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1_university animals/cbutton.h"
+          },
+          "hashes": {
+            "sha-256": "daa484f8d16d2954645bb2abf3d7fa70b8f9e9c411dc9860afa553694f40757a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1_university animals/chero.h"
+          },
+          "hashes": {
+            "sha-256": "08605fa12cbc7db9c2b6ac563018e921e76e350d400e1225120a7257f62dcc2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1_university animals/cmonster.h"
+          },
+          "hashes": {
+            "sha-256": "6f0b05e55734d58bd55993a00317c24230ca20f24e24d672992934e5bed34e71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1_university animals/cweapon.h"
+          },
+          "hashes": {
+            "sha-256": "1747940a4db9f3111d12fb7c7655ee721676fa3b0cc50a53212ae9f4027582ad"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CWeapon::ATK。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CWeapon.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CWeapon::{ctor}",
+                  "decoratedName": "??0CWeapon@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CWeapon::ATK"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CWeapon::AR。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CWeapon.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CWeapon::{ctor}",
+                  "decoratedName": "??0CWeapon@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CWeapon::AR"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CWeapon::ASD。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CWeapon.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CWeapon::{ctor}",
+                  "decoratedName": "??0CWeapon@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CWeapon::ASD"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CWeapon::SD。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CWeapon.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CWeapon::{ctor}",
+                  "decoratedName": "??0CWeapon@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CWeapon::SD"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CWeapon::level。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CWeapon.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CWeapon::{ctor}",
+                  "decoratedName": "??0CWeapon@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CWeapon::level"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CWeapon::resW。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CWeapon.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CWeapon::{ctor}",
+                  "decoratedName": "??0CWeapon@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CWeapon::resW"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CMonster::index。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CMonster.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CMonster::{ctor}",
+                  "decoratedName": "??0CMonster@@QAE@NNHHHHHHPAVCResource@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CMonster::index"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CMonster::direction。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CMonster.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CMonster::{ctor}",
+                  "decoratedName": "??0CMonster@@QAE@NNHHHHHHPAVCResource@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CMonster::direction"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CHero::direction。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CHero::{ctor}",
+                  "decoratedName": "??0CHero@@QAE@HHHHHNHHPAVCResource@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CHero::direction"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CHero::indexA。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CHero::{ctor}",
+                  "decoratedName": "??0CHero@@QAE@HHHHHNHHPAVCResource@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CHero::indexA"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 CHero::index。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CHero::{ctor}",
+                  "decoratedName": "??0CHero@@QAE@HHHHHNHHPAVCResource@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CHero::index"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.cpp"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 154,
+                  "endLine": 142,
+                  "endColumn": 166
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CHero::Draw",
+                  "decoratedName": "?Draw@CHero@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.cpp"
+                },
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 154,
+                  "endLine": 143,
+                  "endColumn": 166
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CHero::Draw",
+                  "decoratedName": "?Draw@CHero@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.cpp"
+                },
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 145,
+                  "endLine": 136,
+                  "endColumn": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CHero::Draw",
+                  "decoratedName": "?Draw@CHero@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.cpp"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 145,
+                  "endLine": 137,
+                  "endColumn": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CHero::Draw",
+                  "decoratedName": "?Draw@CHero@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/C++/V1SFT/V1_University Animals/CWeapon.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a3f42f2458ebfaa3b0d9463e0a8ac11fb80fba25cbc14b55ca37f1fbfda23445"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/C++/V1SFT/V1_University Animals/CMonster.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "dc5b9ff8779ab0b5b63002d16ed217fad0ea4e89a9476c41199db85a781a391a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "88374c95d033716da328cb5380289dac184a86652e99842fbf1e778fbe9a9704"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/C++/V1SFT/V1_University Animals/CHero.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b70136c9e2e2f01f2e3519976b5a384c7ed5f7d1d68b222ac9e7ec6873c94770"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/professional/vc/auxiliary/vs/include/easyx.h"
+          },
+          "hashes": {
+            "sha-256": "bb41113e55530a7bc296c223e3cb1c48b0d35c053b4c66ed843e4f75463cf0d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1sft/v1_university animals/cfunction.h"
+          },
+          "hashes": {
+            "sha-256": "410b141ee94e0cd53cee064badd96ff38d87be401004229c67533bbf93c30e7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/v1sft/v1_university animals/cresource.h"
+          },
+          "hashes": {
+            "sha-256": "bd88fa491c14eb80fdf8d800228d443a0149bdb9b8ae7e11301449ac069efc4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/professional/vc/auxiliary/vs/include/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "057ee75a89db99556d63a972b5611a42913b3fc6678f305b01f305b076bf220c"
+          }
+        }
+      ]
+    }
+  ]
+}

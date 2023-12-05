@@ -1,0 +1,704 @@
+﻿  CBullet.cpp
+  CButton.cpp
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(17,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(17,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(17,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(17,2): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(19,20): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(19,20): message : “int textwidth(TCHAR)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(19,30): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(19,20): message : “int textwidth(LPCTSTR)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(19,30): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(19,20): message : 尝试匹配参数列表“(const char *)”时
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(20,20): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(20,20): message : “int textheight(TCHAR)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(20,31): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(20,20): message : “int textheight(LPCTSTR)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(20,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(20,20): message : 尝试匹配参数列表“(const char *)”时
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(23,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(23,2): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char *”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(23,36): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(23,2): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char *”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(23,36): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CButton.cpp(23,2): message : 尝试匹配参数列表“(int, int, const char *)”时
+  CFunction.cpp
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,16): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,16): message : “int textwidth(TCHAR)”: 无法将参数 1 从“char *”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,26): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,16): message : “int textwidth(LPCTSTR)”: 无法将参数 1 从“char *”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,16): message : 尝试匹配参数列表“(char *)”时
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,41): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,41): message : “int textheight(TCHAR)”: 无法将参数 1 从“char *”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,52): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,41): message : “int textheight(LPCTSTR)”: 无法将参数 1 从“char *”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,52): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,41): message : 尝试匹配参数列表“(char *)”时
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,2): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char *”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,63): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,2): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char *”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,63): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CFunction.cpp(9,2): message : 尝试匹配参数列表“(double, double, char *)”时
+  CHero.cpp
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(116,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(120,15): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(122,15): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(127,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(127,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(127,21): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(127,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(127,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(127,3): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(128,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(128,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(128,21): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(128,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(128,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(128,3): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(129,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(129,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(129,21): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(129,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(129,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(129,3): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(130,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(130,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(130,21): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(130,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(130,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(130,3): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(131,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(131,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(131,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(131,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(131,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(131,3): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(136,142): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(136,121): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(136,75): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(136,63): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(136,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(136,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(137,142): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(137,121): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(137,75): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(137,63): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(137,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(137,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(142,151): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(142,127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(142,78): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(142,65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(142,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(142,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(143,151): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(143,127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(143,78): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(143,65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(143,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(143,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(118,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(120,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(122,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(124,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(126,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(173,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CHero.cpp(204,12): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  CManager.cpp
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(24,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [12]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(24,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(24,2): message : 尝试匹配参数列表“(const char [12], int, int, int)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(25,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“char [100]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(25,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(25,17): message : 尝试匹配参数列表“(char [100], int, int, int)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(31,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“char [100]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(31,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(31,2): message : 尝试匹配参数列表“(char [100], int, int, int)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(35,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“char [100]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(35,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(35,2): message : 尝试匹配参数列表“(char [100], int, int, int)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(38,2): error C2664: “BOOL mciGetErrorStringW(MCIERROR,LPWSTR,UINT)”: 无法将参数 2 从“char [100]”转换为“LPWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(38,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(151,1): message : 参见“mciGetErrorStringW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(38,2): message : 尝试匹配参数列表“(MCIERROR, char [100], size_t)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(23,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(30,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(34,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(133,45): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(133,35): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(182,8): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(182,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(182,8): message : 尝试匹配参数列表“(char [10], int, const char [11], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(186,10): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(186,19): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(186,10): message : 尝试匹配参数列表“(char [10], int, const char [11], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(211,11): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(211,27): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(211,11): message : 尝试匹配参数列表“(HWND, const char [11], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(217,11): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(217,27): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(217,11): message : 尝试匹配参数列表“(HWND, const char [11], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(223,20): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(223,36): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(223,20): message : 尝试匹配参数列表“(HWND, const char [13], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(226,10): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(226,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(226,10): message : 尝试匹配参数列表“(HWND, const char [15], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(283,8): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(283,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(283,8): message : 尝试匹配参数列表“(char [10], int, const char [11], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(287,10): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(287,19): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(287,10): message : 尝试匹配参数列表“(char [10], int, const char [11], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(288,7): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(288,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(288,7): message : 尝试匹配参数列表“(char [10], int, const char [15], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(295,12): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(295,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(295,12): message : 尝试匹配参数列表“(char [10], int, const char [15], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(308,12): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [19]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(308,28): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(308,12): message : 尝试匹配参数列表“(HWND, const char [19], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(313,10): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(313,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(313,10): message : 尝试匹配参数列表“(HWND, const char [15], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(342,46): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(342,36): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(347,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(347,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(347,21): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(347,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(347,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(347,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(348,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(348,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(348,21): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(348,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(348,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(348,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(350,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(350,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(350,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(350,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(350,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(350,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(351,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(351,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(351,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(351,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(351,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(351,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(353,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(353,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(353,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(353,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(353,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(353,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(354,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(354,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(354,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(354,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(354,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(354,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(356,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(356,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(356,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(356,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(356,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(356,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(357,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(357,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(357,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(357,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(357,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(357,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(359,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(359,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(359,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(359,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(359,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(359,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(360,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(360,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(360,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(360,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(360,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(360,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(362,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(362,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(362,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(362,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(362,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(362,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(363,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(363,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(363,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(363,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(363,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(363,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(365,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(365,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(365,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(365,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(365,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(365,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(366,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(366,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(366,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(366,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(366,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(366,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(368,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(368,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(368,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(368,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(368,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(368,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(369,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(369,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(369,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(369,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(369,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(369,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(371,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(371,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(371,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(371,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(371,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(371,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(372,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(372,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(372,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(372,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(372,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(372,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(374,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(374,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [9]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(374,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(374,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(374,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(374,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(375,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(375,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(375,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(375,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(375,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(375,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(415,8): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(415,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(415,8): message : 尝试匹配参数列表“(char [10], int, const char [11], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(441,12): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(441,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(441,12): message : 尝试匹配参数列表“(char [10], int, char [50], int, int, int, int, bool)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(446,10): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(446,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(446,10): message : 尝试匹配参数列表“(HWND, const char [11], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(451,10): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(451,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(451,10): message : 尝试匹配参数列表“(HWND, const char [11], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(457,18): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(457,34): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(457,18): message : 尝试匹配参数列表“(HWND, const char [13], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(460,10): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(460,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1): message : 参见“MessageBoxW”的声明
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(460,10): message : 尝试匹配参数列表“(HWND, const char [15], const char [5], long)”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(440,8): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(505,46): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(505,36): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,18): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,18): message : “int textwidth(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,28): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,18): message : “int textwidth(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,28): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,18): message : 尝试匹配参数列表“(char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,43): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,43): message : “int textheight(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,54): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,43): message : “int textheight(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,54): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,43): message : 尝试匹配参数列表“(char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,65): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,65): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(521,3): message : 尝试匹配参数列表“(double, double, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(729,3): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(729,3): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(729,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(729,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(730,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(730,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(730,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(730,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(730,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(730,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(731,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(731,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(731,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(731,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(731,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(731,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(732,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(732,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(732,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(732,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(732,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(732,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(733,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(733,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(733,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(733,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(733,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(733,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(734,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(734,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char [5]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(734,23): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(734,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(734,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(734,3): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(735,49): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(735,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(738,3): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(738,3): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(738,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(738,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(744,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(744,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(744,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(744,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(744,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(744,3): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(748,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(748,3): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(748,22): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(748,3): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(748,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(748,3): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(765,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(789,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(792,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(793,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(826,75): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(826,58): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(857,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(858,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(866,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(867,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(743,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(747,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(927,45): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(927,35): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1033,3): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1033,3): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1033,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1033,3): message : 尝试匹配参数列表“(int, int, const char [9])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,26): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,26): message : “int textwidth(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,36): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,26): message : “int textwidth(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,36): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,26): message : 尝试匹配参数列表“(char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,54): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,54): message : “int textheight(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,65): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,54): message : “int textheight(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,65): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,54): message : 尝试匹配参数列表“(char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,10): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,10): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,77): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,10): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,77): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1086,10): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,24): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,24): message : “int textwidth(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,34): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,24): message : “int textwidth(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,34): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,24): message : 尝试匹配参数列表“(char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,52): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,52): message : “int textheight(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,63): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,52): message : “int textheight(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,63): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,52): message : 尝试匹配参数列表“(char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,8): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,8): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,75): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,8): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,75): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1087,8): message : 尝试匹配参数列表“(int, int, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CManager.cpp(1085,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CMonster.cpp
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(52,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(64,30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(65,30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(107,48): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(107,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(107,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(107,20): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(111,113): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(111,92): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(111,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(111,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(111,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(111,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(112,113): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(112,92): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(112,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(112,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(112,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(112,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(117,122): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(117,98): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(117,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(117,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(117,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(117,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(118,122): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(118,98): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(118,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(118,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(118,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(118,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(144,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(161,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  CResource.cpp
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(24,5): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(24,5): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(24,33): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(24,5): message : 尝试匹配参数列表“(IMAGE *, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(25,5): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(25,5): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(25,34): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(25,5): message : 尝试匹配参数列表“(IMAGE *, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(36,4): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(36,4): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(36,29): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(36,4): message : 尝试匹配参数列表“(IMAGE *, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(37,4): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(37,4): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(37,30): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(37,4): message : 尝试匹配参数列表“(IMAGE *, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(41,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(41,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [25]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(41,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(41,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [25]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(41,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(41,2): message : 尝试匹配参数列表“(IMAGE *, const char [25], const int, const int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(42,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(42,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [27]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(42,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(42,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [27]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(42,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(42,2): message : 尝试匹配参数列表“(IMAGE *, const char [27], const int, const int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(43,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(43,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [23]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(43,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(43,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [23]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(43,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(43,2): message : 尝试匹配参数列表“(IMAGE *, const char [23], const int, const int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(44,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(44,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [27]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(44,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(44,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [27]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(44,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(44,2): message : 尝试匹配参数列表“(IMAGE *, const char [27], const int, const int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(45,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(45,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(45,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(45,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [24]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(45,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(45,2): message : 尝试匹配参数列表“(IMAGE *, const char [24], const int, const int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(46,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(46,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [25]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(46,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(46,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [25]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(46,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(46,2): message : 尝试匹配参数列表“(IMAGE *, const char [25], const int, const int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(52,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(52,3): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(52,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(52,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(52,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(52,3): message : 尝试匹配参数列表“(IMAGE *, char [50], int, int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(53,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(53,3): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(53,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(53,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(53,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(53,3): message : 尝试匹配参数列表“(IMAGE *, char [50], int, int)”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(60,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(60,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(60,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(60,3): message : 尝试匹配参数列表“(IMAGE *, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(61,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(61,3): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(61,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(61,3): message : 尝试匹配参数列表“(IMAGE *, char [50])”时
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(22,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(23,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(34,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(35,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(50,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(51,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(58,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\V1SFT\V1_University Animals\CResource.cpp(59,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CWeapon.cpp
+D:\C++\V1SFT\V1_University Animals\CWeapon.cpp(16,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\C++\V1SFT\V1_University Animals\CWeapon.cpp(16,2): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [10]”转换为“TCHAR”
+D:\C++\V1SFT\V1_University Animals\CWeapon.cpp(16,18): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\C++\V1SFT\V1_University Animals\CWeapon.cpp(16,2): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [10]”转换为“LPCTSTR”
+D:\C++\V1SFT\V1_University Animals\CWeapon.cpp(16,18): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C++\V1SFT\V1_University Animals\CWeapon.cpp(16,2): message : 尝试匹配参数列表“(int, int, char [10])”时
+D:\C++\V1SFT\V1_University Animals\CWeapon.cpp(15,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.cpp
+  正在生成代码...
+D:\C++\V1SFT\V1_University Animals\CMonster.cpp(157): warning C4715: “CMonster::Hurt”: 不是所有的控件路径都返回值

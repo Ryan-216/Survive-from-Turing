@@ -1,0 +1,134 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(University Animals.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  CBullet.cpp
+  CButton.cpp
+  CFunction.cpp
+D:\C++\Survive from Turing\CFunction.cpp(9,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CFunction.cpp(9,14): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  CHero.cpp
+D:\C++\Survive from Turing\CHero.cpp(176,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(204,142): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(204,121): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(204,75): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(204,63): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(204,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(204,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(205,142): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(205,121): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(205,75): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(205,63): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(205,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(205,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(210,151): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(210,127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(210,78): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(210,65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(210,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(210,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(211,151): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(211,127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(211,78): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(211,65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(211,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(211,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(178,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CHero.cpp(180,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CHero.cpp(182,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CHero.cpp(184,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CHero.cpp(186,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CHero.cpp(188,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CHero.cpp(191,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CHero.cpp(241,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CHero.cpp(272,12): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  CManager.cpp
+D:\C++\Survive from Turing\CManager.cpp(24,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(29,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(36,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(129,46): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(129,36): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(246,45): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(246,35): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(303,9): warning C4101: “psd”: 未引用的局部变量
+D:\C++\Survive from Turing\CManager.cpp(488,10): warning C4101: “myArray”: 未引用的局部变量
+D:\C++\Survive from Turing\CManager.cpp(589,46): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(589,36): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(605,45): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(605,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(824,49): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(824,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(847,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\Survive from Turing\CManager.cpp(853,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(878,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(881,17): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(882,17): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(913,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\Survive from Turing\CManager.cpp(919,76): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(919,59): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(939,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\Survive from Turing\CManager.cpp(953,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(954,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(962,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(963,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(832,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(836,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(1044,45): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(1044,35): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(1146,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(1147,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(1175,28): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CManager.cpp(1156,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(1223,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(1224,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CManager.cpp(1227,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CMonster.cpp
+D:\C++\Survive from Turing\CMonster.cpp(19,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(61,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(73,30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(74,30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(117,48): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(117,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(117,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(117,20): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(121,113): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(121,92): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(121,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(121,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(121,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(121,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(122,113): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(122,92): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(122,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(122,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(122,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(122,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(127,122): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(127,98): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(127,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(127,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(127,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(127,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(128,122): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(128,98): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(128,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(128,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(128,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(128,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(135,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CMonster.cpp(158,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\Survive from Turing\CMonster.cpp(175,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  CResource.cpp
+D:\C++\Survive from Turing\CResource.cpp(22,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(23,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(34,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(35,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(51,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(52,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(59,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(60,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C++\Survive from Turing\CResource.cpp(67,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CWeapon.cpp
+D:\C++\Survive from Turing\CWeapon.cpp(17,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.cpp
+  正在生成代码...
+D:\C++\Survive from Turing\CMonster.cpp(171): warning C4715: “CMonster::Hurt”: 不是所有的控件路径都返回值
+D:\C++\Survive from Turing\CHero.cpp(253): warning C4715: “CHero::Hurt”: 不是所有的控件路径都返回值
+  University Animals.vcxproj -> D:\C++\Survive from Turing\Debug\图灵院幸存者.exe

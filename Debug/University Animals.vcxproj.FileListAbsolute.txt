@@ -1,0 +1,6 @@
+D:\C++\V1_University Animals\Debug\University Animals.exe
+C:\Users\86198\Documents\Tencent Files\2625263082\FileRecv\V1_231027_SfT\V1_University Animals\Debug\University Animals.exe
+D:\C++\V1SFT\V1_University Animals\Debug\图灵院幸存者.exe
+D:\C++\V1SFT\Survive from Turing\Debug\图灵院幸存者.exe
+D:\School of turing\第一次小组项目\图灵院幸存者-年薪百万小组-Ryan\项目最终源码\Survive from Turing\Debug\图灵院幸存者.exe
+D:\C++\Survive from Turing\Debug\图灵院幸存者.exe
